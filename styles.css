@@ -3,4 +3,9 @@ h1 {
 }
 p {
     font: caption;
+    color: blue;
+}
+body{
+    background-color: cornflowerblue;
+    
 }
