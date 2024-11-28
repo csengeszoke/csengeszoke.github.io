@@ -9,3 +9,8 @@ body{
     background-color: cornflowerblue;
     
 }
+
+table, th, td {
+    border: 20px solid black;
+  }
+  
