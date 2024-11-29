@@ -1,149 +1,141 @@
 <!doctype html>
 <html lang="hu">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>3D nyomtatás</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-  </head>
-  <body>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#">3D nyomtatás</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#history">Történelme és fejlődése</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#fejlodes">Fejlődés és lehetőségek</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Anyagok a 3D nyomtatásban
-              </a>
-              
-            </li>
-            
-          </ul>
-          <form class="d-flex" role="search">
-            <input class="form-control me-2" type="search" placeholder="Keresés" aria-label="Search">
-            <button class="btn btn-outline-success" type="submit">Keresés</button>
-          </form>
-        </div>
-      </div>
-    </nav>
-    <div id="carouselExampleFade" class="carousel slide carousel-fade">
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img src="pokember.jpg" class="d-block w-100" height="650" width="500"  alt="pokember">
-        </div>
-        <div class="carousel-item">
-          <img src="3D-Nyomtatott-Sárkány-Éjszakai-Fény-LED-es-Éjszakai_41114.jpg" class="d-block w-100" height="650" width="500" alt="ejszakaifeny">
-        </div>
-        <div class="carousel-item">
-          <img src="letöltés.jpg" class="d-block w-100"height="650" width="500"  alt="kulcstartok">
-        </div>
-      </div>
-      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>3D nyomtatás</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">3D nyomtatás</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
       </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </button>
-    </div>
-    <hr>
-    <h1 id="history">Történelem és fejlődés:</h1>
-    
-    <p>A 3D nyomtatás kezdetei az 1980-as évek közepére nyúlnak vissza. 1984-ben Chuck Hull, az amerikai mérnök és feltaláló fejlesztette ki a "stereolithography" (SLA) technológiát, amely az első kereskedelmi 3D nyomtató alapját képezte. Hull létrehozott egy eljárást, amely képes volt egy folyadékból rétegről rétegre megszilárdítani az anyagot, így létrehozva egy háromdimenziós objektumot.</p>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#history">Történelme és fejlődése</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="fejlodes.html">Fejlődés és lehetőségek</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#anyagok" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Anyagok a 3D nyomtatásban
+            </a>
 
-      <p>Az első 3D nyomtatók elsősorban prototípusok készítésére szolgáltak, lehetővé téve a mérnökök és tervezők számára, hogy gyorsan teszteljék és finomítsák a termékeket, anélkül hogy fizikai modelleket kellett volna készíteniük. Azóta a technológia hatalmas fejlődésen ment keresztül, és ma már számos iparágban használják.</p>
-      
-     <p> A 3D nyomtatás, más néven additív gyártás, olyan technológia, amely lehetővé teszi háromdimenziós tárgyak létrehozását digitális modellből rétegenként történő anyagfelhalmozással. Az elmúlt évtizedekben hatalmas fejlődésen ment keresztül, és ma már számos iparágban alkalmazzák, beleértve az orvostudományt, az autóipart, a repülőgépipart, a divatot és a művészetet.</p>
+          </li>
 
-     <h1>A 3D nyomtatás típusai és alkalmazások</h1>
-     
-     <p>A 3D nyomtatás különböző technológiákra épül, amelyek mindegyike más módon hozza létre a végterméket. A leggyakoribb típusok:</p>
-
-
-    <ol>
-      <li>FDM (Fused Deposition Modeling):</li>
-
-        <ul>
-          <li>Az egyik legelterjedtebb és legolcsóbb 3D nyomtatási eljárás, amely során műanyagszálat (például PLA, ABS) olvasztanak meg, és rétegenként építik fel a kívánt objektumot. Az otthoni 3D nyomtatók többsége ezt a technológiát alkalmazza.</li>
         </ul>
-  
-      <li>SLA (Stereolithography):</li>
-
-        <ul>
-          <li>Egy lézersugár segítségével UV-érzékeny folyékony gyantát keményítenek meg. Az SLA nyomtatók képesek rendkívül magas részletességű modellek készítésére, ezért gyakran használják őket ékszerek, fogászati implantátumok vagy prototípusok előállítására.</li>
-        </ul>
-  
-      <li>DLP (Digital Light Processing):</li>
-
-        <ul>
-          <li>Hasonló az SLA-hoz, de itt nem lézerrel, hanem egy projektorral világítják meg a gyantát. A DLP gyorsabb, de a részletesség és a minőség általában az SLA-hoz képest egy kicsit alacsonyabb.</li>
-        </ul>
-  
-      <li>PolyJet:</li>
-
-        <ul>
-          <li>Ez az eljárás folyékony fotopolimert alkalmaz, amelyet rétegenként szórnak ki, majd UV fénnyel megszilárdítanak. A PolyJet különösen alkalmas multimatériai nyomtatásra, így különböző anyagok (például rugalmas és merev) kombinálására.</li>
-        </ul>
-  
-      <li>Binder Jetting:</li>
-
-        <ul>
-          <li>Egy por alapú anyagot (általában fémeket, homokot, gipszet) egy kötőanyag segítségével rögzítenek. A nyomtatott tárgyakat később kemencében kiégetik, hogy eltávolítsák a kötőanyagot, és megszilárdítsák az anyagot.</li>
-        </ul>
-  
-    </ol>
-<hr>
-
-  
-  <div class="container">
-    <div class="row">
-      <h1 id="fejlodes"> Fejlődés és lehetőségek</h1>
-      <p>A 3D nyomtatás gyors fejlődése lehetővé tette, hogy egyre szélesebb körben alkalmazzák különféle iparágakban</p>
-  
-  
-  <div class="container">
-    <div class="row">
-
-      <div class="col">
-        <h3>Orvostudomány</h3>
-        <p>A 3D nyomtatás forradalmasította a sebészetet és a protetikát. Mesterséges testrészeket, például protéziseket, ortopédiai eszközöket, sőt akár szervmodelleket is lehet nyomtatni, amelyek segítenek a műtétek előtti tervezésben.</p>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Keresés" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Keresés</button>
+        </form>
       </div>
-
-      <div class="col">
-        <h3>Autóipar</h3>
-        <p>Az autógyártásban a 3D nyomtatás lehetővé teszi a prototípusok gyors tesztelését és az alkatrészek egyedi gyártását. Ezen kívül az alkatrészekhez használt anyagok is egyre fejlettebbek (például erősített műanyagok és fémek).</p>
-      </div>
-
-      <div class="row">
-        
-        <div class="col">
-          <h3>Repülőgépipar</h3>
-          <p>A repülőgépek alkatrészeinek 3D nyomtatása csökkentheti a gyártási költségeket és a súlyt, miközben növeli a részegységek összetettségét.</p>
-        </div>
-
-        <div class="col">
-          <h3>Építészet</h3>
-          <p>A 3D nyomtatás lehetővé teszi az épületek gyors és olcsó prototípusainak létrehozását, sőt, már egyes helyeken próbálkoznak épületek teljes 3D nyomtatásával is</p>
-        </div>
-
     </div>
+  </nav>
+
+  <div id="carouselExampleFade" class="carousel slide carousel-fade">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="pokember.jpg" class="d-block w-100" height="650" width="500" alt="pokember">
+      </div>
+      <div class="carousel-item">
+        <img src="3D-Nyomtatott-Sárkány-Éjszakai-Fény-LED-es-Éjszakai_41114.jpg" class="d-block w-100" height="650"
+          width="500" alt="ejszakaifeny">
+      </div>
+      <div class="carousel-item">
+        <img src="letöltés.jpg" class="d-block w-100" height="650" width="500" alt="kulcstartok">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
   </div>
 
+  <hr>
+
+  <h1 id="history">Történelem és fejlődés:</h1>
+
+  <p>A 3D nyomtatás kezdetei az 1980-as évek közepére nyúlnak vissza. 1984-ben Chuck Hull, az amerikai mérnök és
+    feltaláló fejlesztette ki a "stereolithography" (SLA) technológiát, amely az első kereskedelmi 3D nyomtató alapját
+    képezte. Hull létrehozott egy eljárást, amely képes volt egy folyadékból rétegről rétegre megszilárdítani az
+    anyagot, így létrehozva egy háromdimenziós objektumot.</p>
+
+  <p>Az első 3D nyomtatók elsősorban prototípusok készítésére szolgáltak, lehetővé téve a mérnökök és tervezők számára,
+    hogy gyorsan teszteljék és finomítsák a termékeket, anélkül hogy fizikai modelleket kellett volna készíteniük. Azóta
+    a technológia hatalmas fejlődésen ment keresztül, és ma már számos iparágban használják.</p>
+
+  <p> A 3D nyomtatás, más néven additív gyártás, olyan technológia, amely lehetővé teszi háromdimenziós tárgyak
+    létrehozását digitális modellből rétegenként történő anyagfelhalmozással. Az elmúlt évtizedekben hatalmas fejlődésen
+    ment keresztül, és ma már számos iparágban alkalmazzák, beleértve az orvostudományt, az autóipart, a repülőgépipart,
+    a divatot és a művészetet.</p>
+
+  <h1>A 3D nyomtatás típusai és alkalmazások</h1>
+
+  <p>A 3D nyomtatás különböző technológiákra épül, amelyek mindegyike más módon hozza létre a végterméket. A
+    leggyakoribb típusok:</p>
 
 
+  <ol>
+    <li>FDM (Fused Deposition Modeling):</li>
 
+    <ul>
+      <li>Az egyik legelterjedtebb és legolcsóbb 3D nyomtatási eljárás, amely során műanyagszálat (például PLA, ABS)
+        olvasztanak meg, és rétegenként építik fel a kívánt objektumot. Az otthoni 3D nyomtatók többsége ezt a
+        technológiát alkalmazza.</li>
+    </ul>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-  </body>
+    <li>SLA (Stereolithography):</li>
+
+    <ul>
+      <li>Egy lézersugár segítségével UV-érzékeny folyékony gyantát keményítenek meg. Az SLA nyomtatók képesek rendkívül
+        magas részletességű modellek készítésére, ezért gyakran használják őket ékszerek, fogászati implantátumok vagy
+        prototípusok előállítására.</li>
+    </ul>
+
+    <li>DLP (Digital Light Processing):</li>
+
+    <ul>
+      <li>Hasonló az SLA-hoz, de itt nem lézerrel, hanem egy projektorral világítják meg a gyantát. A DLP gyorsabb, de a
+        részletesség és a minőség általában az SLA-hoz képest egy kicsit alacsonyabb.</li>
+    </ul>
+
+    <li>PolyJet:</li>
+
+    <ul>
+      <li>Ez az eljárás folyékony fotopolimert alkalmaz, amelyet rétegenként szórnak ki, majd UV fénnyel
+        megszilárdítanak. A PolyJet különösen alkalmas multimatériai nyomtatásra, így különböző anyagok (például
+        rugalmas és merev) kombinálására.</li>
+    </ul>
+
+    <li>Binder Jetting:</li>
+
+    <ul>
+      <li>Egy por alapú anyagot (általában fémeket, homokot, gipszet) egy kötőanyag segítségével rögzítenek. A
+        nyomtatott tárgyakat később kemencében kiégetik, hogy eltávolítsák a kötőanyagot, és megszilárdítsák az anyagot.
+      </li>
+    </ul>
+
+  </ol>
+  <hr>
+
+          <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+            crossorigin="anonymous"></script>
+</body>
+
 </html>

@@ -1,16 +1,12 @@
 h1 {
-    color: aqua;
+    color: rgba(187, 183, 243, 0.438);
 }
 p {
     font: caption;
-    color: blue;
+    color: black;
 }
 body{
-    background-color: cornflowerblue;
+    background-color: rgb(7, 18, 39);
     
 }
 
-body{
-    background-color: rgba(209, 196, 180, 0.966);
-    
-}

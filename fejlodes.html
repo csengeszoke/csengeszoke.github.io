@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="hu">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>3D nyomtatás</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">3D nyomtatás</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#history">Történelme és fejlődése</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="fejlodes.html">Fejlődés és lehetőségek</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#anyagok" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Anyagok a 3D nyomtatásban
+            </a>
+
+          </li>
+
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Keresés" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Keresés</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+  <hr>
+
+
+  <div class="container">
+
+      <h1 id="fejlodes"> Fejlődés és lehetőségek</h1>
+      <p>A 3D nyomtatás gyors fejlődése lehetővé tette, hogy egyre szélesebb körben alkalmazzák különféle iparágakban
+      </p>
+
+        <div class="row">
+
+          <div class="col">
+            <h3>Orvostudomány</h3>
+            <p>A 3D nyomtatás forradalmasította a sebészetet és a protetikát. Mesterséges testrészeket, például
+              protéziseket, ortopédiai eszközöket, sőt akár szervmodelleket is lehet nyomtatni, amelyek segítenek a
+              műtétek előtti tervezésben.</p>
+          </div>
+
+          <div class="col">
+            <h3>Autóipar</h3>
+            <p>Az autógyártásban a 3D nyomtatás lehetővé teszi a prototípusok gyors tesztelését és az alkatrészek egyedi
+              gyártását. Ezen kívül az alkatrészekhez használt anyagok is egyre fejlettebbek (például erősített
+              műanyagok és fémek).</p>
+          </div>
+
+        </div>
+
+          <div class="row">
+
+            <div class="col">
+              <h3>Repülőgépipar</h3>
+              <p>A repülőgépek alkatrészeinek 3D nyomtatása csökkentheti a gyártási költségeket és a súlyt, miközben
+                növeli a részegységek összetettségét.</p>
+            </div>
+
+            <div class="col">
+              <h3>Építészet</h3>
+              <p>A 3D nyomtatás lehetővé teszi az épületek gyors és olcsó prototípusainak létrehozását, sőt, már egyes
+                helyeken próbálkoznak épületek teljes 3D nyomtatásával is</p>
+            </div>
+
+          </div>
+
+        <h1 id="anyagok">Anyagok a 3D nyomtatásban</h1>
+
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+          <div class="col">
+            <div class="card">
+              <img src="pla.jpg" class="card-img-top" alt="PLA">
+              <div class="card-body">
+                <h5 class="card-title">Műanyagok</h5>
+                <p class="card-text">PLA (Polylactic Acid), ABS (Acrylonitrile Butadiene Styrene), PETG (Polyethylene
+                  Terephthalate Glycol), Nylon. Az FDM és SLA nyomtatók többsége ilyen anyagokkal dolgozik</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img src="sls.jpg" class="card-img-top" alt="SLS nyomtató">
+              <div class="card-body">
+                <h5 class="card-title">Fémek</h5>
+                <p class="card-text">Acél, titán, alumínium, arany, ezüst, egyes 3D nyomtatók képesek fémekkel dolgozni,
+                  különösen ipari környezetben, ahol a SLS vagy a fémlevegős nyomtatás eljárásokat alkalmazzák</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img src="dlp.jpg" class="card-img-top" alt="DLP nyomtató">
+              <div class="card-body">
+                <h5 class="card-title">Gyanta</h5>
+                <p class="card-text">Különböző típusú gyanták használhatók SLA és DLP nyomtatókhoz, például fényérzékeny
+                  műgyanták, biokompatibilis gyanták, vagy színes gyanták</p>
+              </div>
+            </div>
+          </div>
+
+            <div class="col">
+              <div class="card">
+                <img src="keramia nyomtato.jpg" class="card-img-top" alt="Kerámia 3D nyomtató">
+                <div class="card-body">
+                  <h5 class="card-title">Kerámia</h5>
+                  <p class="card-text">A 3D nyomtatás során kerámiát is lehet használni, főleg a művészetekben vagy
+                    ipari alkatrészek gyártásánál</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="elelmiszer 3d nyomtato.jpg" class="card-img-top" alt="Élelmiszer 3D nyomtató">
+                <div class="card-body">
+                  <h5 class="card-title">Élelmiszer</h5>
+                  <p class="card-text">Az élelmiszeriparban is egyre elterjedtebb a 3D nyomtatás, például csokoládé,
+                    sajt vagy más étkezési alapanyagok nyomtatása</p>
+                </div>
+              </div>
+            </div>
+
+
+          </div>
+
+
+
+
+
+          <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+            crossorigin="anonymous"></script>
+</body>
+
+</html>
