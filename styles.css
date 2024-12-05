@@ -27,3 +27,9 @@ abbr{
     font-weight: bold;
     text-transform: uppercase;
 }
+
+h3{
+    text-shadow: 1px 3px;
+    color: rgba(7, 7, 97, 0.733);
+
+}
