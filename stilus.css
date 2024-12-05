@@ -1,0 +1,22 @@
+body {
+    background-color: rgb(218, 209, 191);
+
+    width: 90%;
+    min-width: 400px;
+    max-width: 1200px;
+
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 100px;
+    padding: 20px;
+}
+
+h1{
+    text-shadow: 2px 2px;
+}
+
+h3{
+    text-shadow: 1px 3px;
+    color: rgba(7, 7, 97, 0.733);
+
+}
